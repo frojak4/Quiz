@@ -1,0 +1,87 @@
+html {
+    background-image: linear-gradient(-20deg, #100259 0%, #365473 100%);
+    height: 100%;
+    font-family: 'tektur', sans-serif;
+}
+
+.overskrift {
+    text-align: center;
+    -webkit-text-stroke: .5px black;
+    font-weight: 400;
+    color: rgba(255, 166, 0, 0.888);
+    text-shadow: 3px 3px black;
+    font-size: 30px;
+    max-height: 80px;
+    
+}
+
+.overskrift > h3 {
+    font-size: 20px;
+}
+
+.skrift {
+    font-size: 70px;
+    color: white;
+    -webkit-text-stroke: black 3px;
+    text-shadow: 5px 5px black;
+}
+
+.startButtonDiv {
+    text-align: center;
+    margin-top: 250px;
+}
+
+.startButton {
+    height: 80px;
+    width: 100px;
+    border-radius: 10%;
+}
+
+.answerRowOne, .answerRowTwo {
+    display: flex;
+    justify-content: center;
+}
+
+.answerOne, .answerTwo, .answerThree, .answerFour {
+    border: orangered solid 4px;
+    background-color: orange;
+    color: white;
+    -webkit-text-stroke: black 0.7px;
+    text-shadow: 1px 1px black;
+    height: 60px;
+    width: 170px;
+    text-align: center;
+    font-weight: 800;
+    padding-top: 40px;
+    font-size: 20px;
+    margin: 50px;
+    border-radius: 30%;
+}
+
+.answerOne:hover, .answerTwo:hover, .answerThree:hover, .answerFour:hover {
+    box-shadow: 5px 5px 5px black;
+    height: 65px;
+    width: 175px;
+}
+
+.health {
+    font-size: 70px;
+    color: red;
+    text-align: center;
+    margin-top: 50px;
+    
+    
+    text-shadow: 4px 4px black;
+}
+
+.antallSpørsmålDiv {
+    text-align: center;
+    color: white;
+    -webkit-text-stroke: black 1px;
+    text-shadow: 2px 2px black;
+    margin: 0;
+}
+
+.antallSpørsmålDiv > h1 {
+    margin: 0;
+}
